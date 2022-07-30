@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(240, 240, 240);
+}
+.infoCode{
+    display: flex;
+    justify-content: space-around;
+}
+.key{
+    display: flex;
+    justify-content: center;
+    font-size: 5em;
+}
+.infoCode h5{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 8px;
+    background-color: rgb(132, 247, 230);
+    border-radius: 6px 6px 0px 0px ;
+}
+.event span{
+    border-radius: 0px 0px 6px 6px ;
+    font-size: 3em;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    background-color: white;
+}
+.event:hover{
+    width: 25%;
+    border-bottom-style:solid ;
+}
+.event{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+}
+#main{
+    display: none;
+}
+#massage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+#massage span{
+    color: #555;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: xx-large;
+}
